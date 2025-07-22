@@ -229,3 +229,34 @@ footer {
 .social-links img:hover {
   filter: brightness(0.7) invert(0.7) sepia(1) hue-rotate(120deg);
 }
+.rtp-bar {
+  width: 100%;
+  margin: 0.7rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.98rem;
+  justify-content: center;
+}
+
+.rtp-bar-outer {
+  width: 70px;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 4px;
+}
+
+.rtp-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, #35a854 60%, #52d67c 100%);
+  border-radius: 6px 0 0 6px;
+  transition: width 0.7s cubic-bezier(.4,2,.6,1);
+}
+
+.rtp-value {
+  font-weight: 600;
+  color: #2d3250;
+  font-size: 0.98em;
+}

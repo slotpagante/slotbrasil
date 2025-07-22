@@ -25,6 +25,13 @@ function renderSites(provedor) {
       <div class="site-rating">${stars}</div>
       <div class="site-bonus">${site.bonus}</div>
       <div class="site-desc">${site.descricao}</div>
+      <div class="rtp-bar">
+    <span>RTP:</span>
+    <div class="rtp-bar-outer">
+      <div class="rtp-bar-inner" style="width: ${parseFloat(site.rtp)}%;"></div>
+    </div>
+    <span class="rtp-value">${site.rtp}</span>
+  </div>
       <a class="site-btn" href="${site.linkConvite}" target="_blank" rel="noopener">Acessar com meu convite</a>
     `;
     container.appendChild(card);
