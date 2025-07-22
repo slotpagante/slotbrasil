@@ -80,3 +80,4 @@ const listaJogos = [
     "rtp": "96.5%"
   }
 ];
+// Gera provedores únicos
