@@ -1,74 +1,82 @@
-const listaSites = [
+const listaJogos = [
   {
-    "nome": "SlotMania",
-    "provedor": "ProvedorX",
-    "descricao": "Paga todo dia, saques rápidos e bônus diário. Testado e aprovado!",
-    "imagem": "https://via.placeholder.com/88x88?text=SlotMania",
-    "linkConvite": "https://slotmania.com/ref/seulink",
+    "nome": "Fortune Tiger",
+    "tipo": "Slot",
+    "provedor": "PG Soft",
+    "descricao": "Slot com temática asiática e tigre da sorte",
+    "imagem": "https://via.placeholder.com/88x88?text=FortuneTiger",
+    "linkJogo": "https://pgsoft.com/fortunetiger",
     "avaliacao": 5,
-    "bonus": "Bônus de boas-vindas: 100% até R$500"
+    "rtp": "96.8%"
   },
   {
-    "nome": "GiroFácil",
-    "provedor": "ProvedorY",
-    "descricao": "Plataforma fácil de usar com pagamentos instantâneos e suporte 24h.",
-    "imagem": "https://via.placeholder.com/88x88?text=GiroFácil",
-    "linkConvite": "https://girofacil.com/ref/seulink",
+    "nome": "Sweet Bonanza",
+    "tipo": "Slot",
+    "provedor": "Pragmatic Play",
+    "descricao": "Slot com doces e multiplicadores",
+    "imagem": "https://via.placeholder.com/88x88?text=SweetBonanza",
+    "linkJogo": "https://pragmaticplay.com/sweetbonanza",
     "avaliacao": 4,
-    "bonus": "Giros grátis para novos usuários"
+    "rtp": "96.5%"
   },
   {
-    "nome": "MegaSlots",
-    "provedor": "ProvedorX",
-    "descricao": "Saques no mesmo dia e muitos bônus para iniciantes.",
-    "imagem": "https://via.placeholder.com/88x88?text=MegaSlots",
-    "linkConvite": "https://megaslots.com/ref/seulink",
+    "nome": "Fortune Mouse",
+    "tipo": "Slot",
+    "provedor": "PG Soft",
+    "descricao": "Slot com rato da sorte e bônus frequentes",
+    "imagem": "https://via.placeholder.com/88x88?text=FortuneMouse",
+    "linkJogo": "https://pgsoft.com/fortunemouse",
     "avaliacao": 4,
-    "bonus": "Cashback diário de até 10%"
+    "rtp": "97.0%"
   },
   {
-    "nome": "SuperPrêmios",
-    "provedor": "ProvedorZ",
-    "descricao": "Pagamentos automáticos, variedade de jogos e promoções semanais.",
-    "imagem": "https://via.placeholder.com/88x88?text=SuperPrêmios",
-    "linkConvite": "https://superpremios.com/ref/seulink",
+    "nome": "Fortune Ox",
+    "tipo": "Slot",
+    "provedor": "PG Soft",
+    "descricao": "Slot com boi dourado e multiplicadores",
+    "imagem": "https://via.placeholder.com/88x88?text=FortuneOx",
+    "linkJogo": "https://pgsoft.com/fortuneox",
     "avaliacao": 5,
-    "bonus": "Promoções semanais para todos"
+    "rtp": "96.7%"
   },
   {
-    "nome": "JackpotTop",
-    "provedor": "ProvedorY",
-    "descricao": "Ganhe cashback diário e participe de sorteios exclusivos.",
-    "imagem": "https://via.placeholder.com/88x88?text=JackpotTop",
-    "linkConvite": "https://jackpottop.com/ref/seulink",
+    "nome": "Mines",
+    "tipo": "Crash",
+    "provedor": "Spribe",
+    "descricao": "Jogo de estratégia com minas",
+    "imagem": "https://via.placeholder.com/88x88?text=Mines",
+    "linkJogo": "https://spribe.com/mines",
     "avaliacao": 4,
-    "bonus": "Sorteios e cashback diário"
+    "rtp": "97.0%"
   },
   {
-    "nome": "SpinRápido",
-    "provedor": "ProvedorX",
-    "descricao": "Retiradas rápidas, suporte nota 10 e giros grátis todos os dias.",
-    "imagem": "https://via.placeholder.com/88x88?text=SpinRápido",
-    "linkConvite": "https://spinrapido.com/ref/seulink",
+    "nome": "Aviator",
+    "tipo": "Crash",
+    "provedor": "Spribe",
+    "descricao": "Jogo de avião multiplicador",
+    "imagem": "https://via.placeholder.com/88x88?text=Aviator",
+    "linkJogo": "https://spribe.com/aviator",
     "avaliacao": 5,
-    "bonus": "Giros grátis diários para membros"
+    "rtp": "97.3%"
   },
   {
-    "nome": "BônusMaster",
-    "provedor": "ProvedorZ",
-    "descricao": "Melhor bônus de boas-vindas do mercado e pagamentos sem burocracia.",
-    "imagem": "https://via.placeholder.com/88x88?text=BônusMaster",
-    "linkConvite": "https://bonusmaster.com/ref/seulink",
+    "nome": "Gates of Olympus",
+    "tipo": "Slot",
+    "provedor": "Pragmatic Play",
+    "descricao": "Slot com temática grega e Zeus",
+    "imagem": "https://via.placeholder.com/88x88?text=GatesOfOlympus",
+    "linkJogo": "https://pragmaticplay.com/gatesofolympus",
     "avaliacao": 5,
-    "bonus": "Bônus de boas-vindas + VIP"
+    "rtp": "96.5%"
   },
   {
-    "nome": "FortunaClub",
-    "provedor": "ProvedorY",
-    "descricao": "Clube VIP com promoções diárias e saques instantâneos.",
-    "imagem": "https://via.placeholder.com/88x88?text=FortunaClub",
-    "linkConvite": "https://fortunaclub.com/ref/seulink",
+    "nome": "Spaceman",
+    "tipo": "Crash",
+    "provedor": "Pragmatic Play",
+    "descricao": "Jogo crash com astronauta",
+    "imagem": "https://via.placeholder.com/88x88?text=Spaceman",
+    "linkJogo": "https://pragmaticplay.com/spaceman",
     "avaliacao": 4,
-    "bonus": "Promoções para membros VIP"
+    "rtp": "96.5%"
   }
 ];

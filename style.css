@@ -199,3 +199,33 @@ footer {
     padding: 1rem 0.3rem 1rem 0.3rem;
   }
 }
+footer {
+  background: #181818;
+  color: #fff;
+  padding: 24px 0 12px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.2s;
+}
+
+.social-links img:hover {
+  filter: brightness(0.7) invert(0.7) sepia(1) hue-rotate(120deg);
+}

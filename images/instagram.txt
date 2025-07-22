@@ -1,0 +1,7 @@
+<!-- filepath: c:\Users\LORENZO\Documents\GitHub\slotbrasil\instagram.svg -->
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="28" height="28" rx="7" fill="#fff"/>
+  <rect x="5" y="5" width="18" height="18" rx="6" stroke="#2d3250" stroke-width="2"/>
+  <circle cx="14" cy="14" r="5" stroke="#2d3250" stroke-width="2"/>
+  <circle cx="19.2" cy="8.8" r="1.2" fill="#2d3250"/>
+</svg>
