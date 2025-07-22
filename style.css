@@ -32,6 +32,32 @@ body {
   margin: 0 0 1.5rem 0;
 }
 
+.provedor-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: center;
+  background: #e9ecef;
+  padding: 1rem 0 0.6rem 0;
+  margin-bottom: 0.7rem;
+  border-radius: 0 0 15px 15px;
+}
+.provedor-menu button {
+  background: #2d3250;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.provedor-menu button.active,
+.provedor-menu button:hover {
+  background: #35a854;
+  color: #fff;
+}
+
 .sites-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
